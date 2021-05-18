@@ -10,10 +10,10 @@
     background-repeat: no-repeat;
   }
   @media screen and (min-width: 1280px) {
-    background-image: url(/src/images/registration/desktop/donut_desktop.png),
-      url(/src/images/registration/desktop/confetti_desktop.png);
-    background-image: url(/src/images/registration/desktop/donut_desktop@2x.png),
-      url(/src/images/registration/desktop/confetti_desktop@2x.png);
+    background-image: url(/src/images/registration/desktop/donut_desktop.png);
+      // url(/src/images/registration/desktop/confetti_desktop.png);
+    background-image: url(/src/images/registration/desktop/donut_desktop@2x.png);
+      // url(/src/images/registration/desktop/confetti_desktop@2x.png);
     background-size: 250px 250px, 600px 600px;
     background-position: top left 70px, bottom 150% right;
     background-repeat: no-repeat;
