@@ -143,10 +143,10 @@
     z-index: 0;
     transition: 1500ms cubic-bezier(0.2, 0.2, 0.2, 0.2);
 
-    &__img {
-      width: 235px;
-      height: 235px;
-    }
+    // &__img {
+    //   width: 235px;
+    //   height: 235px;
+    // }
   }
 
   @media screen and (min-width: 1280px) {
@@ -156,10 +156,10 @@
     top: -70px;
     z-index: 0;
 
-    &__img {
-      width: 250px;
-      height: 250px;
-    }
+    // &__img {
+    //   width: 250px;
+    //   height: 250px;
+    // }
   }
 }
 .registration-confetti {
@@ -173,10 +173,10 @@
     z-index: -1;
     transition: 1500ms cubic-bezier(0.2, 0.2, 0.2, 0.2);
 
-    &__img {
-      width: 380px;
-      height: 380px;
-    }
+    // &__img {
+    //   width: 380px;
+    //   height: 380px;
+    // }
   }
 
   @media screen and (min-width: 1280px) {
@@ -186,9 +186,9 @@
     bottom: -180%;
     z-index: -1;
 
-    &__img {
-      width: 600px;
-      height: 600px;
-    }
+    // &__img {
+    //   width: 600px;
+    //   height: 600px;
+    // }
   }
 }
