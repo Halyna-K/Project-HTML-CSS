@@ -95,12 +95,10 @@ img {
   line-height: 2.7;
   align-items: center;
   vertical-align: top;
-}
 
-@media screen and (min-width: 1280px) {
-  .title--size {
-    font-size: 36px;
-    line-height: 1.81;
+  @media screen and (min-width: 1280px) {
+      font-size: 36px;
+      line-height: 1.81;
   }
 }
 
@@ -108,11 +106,9 @@ img {
   font-family: Montserrat;
   font-size: 16px;
   line-height: 1.25;
-}
 
-@media screen and (min-width: 1280px) {
-  .text--size {
-    font-size: 18px;
-    line-height: 1.2;
+  @media screen and (min-width: 1280px) {
+      font-size: 18px;
+      line-height: 1.2;
   }
 }
