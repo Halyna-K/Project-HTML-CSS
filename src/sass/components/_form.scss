@@ -10,15 +10,15 @@
 
 .form__input {
   width: 100%;
-
+  margin-bottom: 25px;
   border-top: none;
   border-right: none;
   border-left: none;
   border-bottom: 1px solid var(--read-more-color);
   background-color: transparent;
 
-  &:not(:last-child) {
-    margin-bottom: 25px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
   }
 
   &:valid:not(:focus) {
@@ -41,7 +41,6 @@
 .form__button {
   min-width: 145px;
   height: 40px;
-  margin-top: 37px;
   background: var(--read-more-color);
   border-radius: 25px;
   display: inline-flex;
