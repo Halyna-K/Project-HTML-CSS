@@ -2,7 +2,6 @@
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  background-color: var(--accent-background-color);
 
   &__title {
     margin-bottom: 20px;
@@ -160,7 +159,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 200px;
+    bottom: 250px;
     z-index: 0;
 
     &__img {
